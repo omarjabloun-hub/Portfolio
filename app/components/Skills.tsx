@@ -14,6 +14,7 @@ export default function Skills() {
         "Python",
         "JavaScript/TypeScript",
         ".NET",
+        "SpringBoot",
         "Express",
         "Angular",
         "Nest.js",

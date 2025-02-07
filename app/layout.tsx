@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Omar Jabloun Portfolio',
   description: 'Personal Portfolio',
   icons: {
-    icon : "/favicon.png"
+    icon : "/favicon.ico"
   }
 }
 
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="icon" href="/favicon.ico" sizes="any"/>
       </head>
       <body>{children}</body>
     </html>

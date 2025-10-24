@@ -60,7 +60,7 @@ export default function Hero() {
             <h2 className="text-2xl font-bold mb-4 text-gray-800">About Me</h2>
             <p className="text-gray-700 mb-4">
               I'm a passionate Software Engineer with a strong background in full-stack development, AI/ML, and cloud
-              technologies. Currently pursuing my Master's degree in Software Engineering at the National Institute of
+              technologies. I recently graduated with a Master's degree in Software Engineering from the National Institute of
               Applied Science and Technology (INSAT) in Tunis, Tunisia.
             </p>
             <p className="text-gray-700">
@@ -74,4 +74,3 @@ export default function Hero() {
     </section>
   )
 }
-

@@ -30,12 +30,12 @@ export default function Skills() {
     {
       icon: <Brain className="text-purple-500" />,
       title: "AI/ML",
-      skills: ["Deep Learning", "NLP", "BERT", "RoBERTa", "OpenAI", "LangChain"],
+      skills: ["Large Language Models (LLMs)", "AI Agents", "Multi-Agent Systems", "LangChain", "RAG", "Generative AI", "OpenAI"]
     },
     {
       icon: <Cloud className="text-orange-500" />,
       title: "DevOps",
-      skills: ["Git", "Docker", "Kubernetes", "Azure", "AWS", "Kibana", "Grafana"],
+      skills: ["Git", "Docker", "Kubernetes", "Azure", "AWS", "Kibana", "Grafana", "Kafka"],
     },
     {
       icon: <Languages className="text-red-500" />,

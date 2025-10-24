@@ -4,30 +4,30 @@ import AnimateOnScroll from "./AnimateOnScroll"
 export default function Experience() {
   const experiences = [
     {
-      company: "Palete AI",
-      position: "Software Engineer (Part-Time)",
-      period: "Dec. 2024 - Present",
+      company: "Crewmeister GmbH",
+      position: "Software Engineer Intern",
+      period: "May 2025 - Expected Nov 2025",
       description:
-        "Developed microservice-based architecture for real-time customer interactions, built an agent-based system with LLMs, and implemented CI/CD pipelines.",
-      stack: "Next.js, Nest.js, FastAPI, LLMs, Milvus/Zilliz, AWS, Docker, GitHub Actions",
-      logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-1kzvXHFzgpyO0lIdAjNAUhIZ8QCpOK.png",
+        "Engineered event-driven microservices (subscription lifecycle, shift planning, holiday management) for 17,000+ SMBs. Implemented cloud-native services on AWS using Java, Spring Boot, and Kafka. Drove developer velocity initiatives, including a Node.js CLI cutting boilerplate by 70%.",
+      stack: "Java, Spring Boot, Kafka, AWS, GitLab CI/CD, Cucumber, Kubernetes",
+      logo: "https://orfd6t6l8icmkl5l.public.blob.vercel-storage.com/crewmeister_logo.jpg",
     },
     {
-      company: "AS Solutions R&D",
-      position: "Software Engineer (Part-Time)",
-      period: "Jan. 2024 - Nov. 2024",
+      company: "AS Solutions",
+      position: "Software Engineer - Working Student",
+      period: "Jan 2024 - Nov 2024",
       description:
-        "Led backend development for insurance platforms, built a pricing engine, and improved client subscriptions by 60%.",
-      stack: "Express, Prisma, PostgreSQL, tRPC, Docker, Azure",
+        "Led backend development for 5+ insurance platforms (premium calculations, payment processing), increasing client subscriptions by 60%. Engineered a custom pricing engine to cut product development time by 80%.",
+      stack: "Express, Prisma, PostgreSQL, tRPC, Docker, Azure, Agile/Scrum, Azure DevOps",
       logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/AS_Logo_2.jpg-fCmc540S7HsFHy1VrVzJ0KS3mkSFpa.jpeg",
     },
     {
-      company: "GoMyCode Central Team",
-      position: "Software Engineer (Part-Time)",
-      period: "Nov. 2022 - Nov. 2023",
+      company: "GoMyCode",
+      position: "Software Engineer - Working Student",
+      period: "Nov 2022 - Nov 2023",
       description:
-        "Spearheaded design/implementation of a Talent Acquisition platform, reducing hiring time by 30% and improving processing efficiency by 50%.",
-      stack: ".NET 6, C#, Neo4j, Azure DevOps, Clean Architecture",
+        "Spearheaded a Talent Acquisition platform, reducing hiring time by 30%. Integrated automated assessments, enhancing processing efficiency by 50%. Managed and optimized the Azure-based backend for high performance.",
+      stack: ".NET 6, C#, Neo4j, Azure DevOps, Clean Architecture, Agile/Scrum, Jira",
       logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo_GMC.jpg-e3sNbf98LKeq8qw2UtnuljFp3aZp7l.jpeg",
     },
   ]
@@ -65,4 +65,3 @@ export default function Experience() {
     </section>
   )
 }
-

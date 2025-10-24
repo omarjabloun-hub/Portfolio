@@ -8,8 +8,8 @@ export default function About() {
         <div className="max-w-2xl mx-auto">
           <p className="text-gray-700 mb-4">
             I'm Omar Jabloun, a passionate Software Engineer with a strong background in full-stack development, AI/ML,
-            and cloud technologies. I'm currently pursuing my Master's degree in Software Engineering at the National
-            Institute of Applied Science and Technology (INSAT) in Tunis, Tunisia.
+            and cloud technologies.
+            I recently graduated with a Master's degree in Software Engineering from the National Institute of Applied Science and Technology (INSAT) in Tunis, Tunisia.
           </p>
           <p className="text-gray-700">
             With experience in developing microservice-based architectures, implementing AI-driven solutions, and

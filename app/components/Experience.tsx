@@ -11,6 +11,7 @@ export default function Experience() {
         "Engineered event-driven microservices (subscription lifecycle, shift planning, holiday management) for 17,000+ SMBs. Implemented cloud-native services on AWS using Java, Spring Boot, and Kafka. Drove developer velocity initiatives, including a Node.js CLI cutting boilerplate by 70%.",
       stack: "Java, Spring Boot, Kafka, AWS, GitLab CI/CD, Cucumber, Kubernetes",
       logo: "https://orfd6t6l8icmkl5l.public.blob.vercel-storage.com/crewmeister_logo.jpg",
+      location: "Munich, Germany",
     },
     {
       company: "AS Solutions",
@@ -20,6 +21,7 @@ export default function Experience() {
         "Led backend development for 5+ insurance platforms (premium calculations, payment processing), increasing client subscriptions by 60%. Engineered a custom pricing engine to cut product development time by 80%.",
       stack: "Express, Prisma, PostgreSQL, tRPC, Docker, Azure, Agile/Scrum, Azure DevOps",
       logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/AS_Logo_2.jpg-fCmc540S7HsFHy1VrVzJ0KS3mkSFpa.jpeg",
+      location: "Remote - Paris, France",
     },
     {
       company: "GoMyCode",
@@ -29,6 +31,7 @@ export default function Experience() {
         "Spearheaded a Talent Acquisition platform, reducing hiring time by 30%. Integrated automated assessments, enhancing processing efficiency by 50%. Managed and optimized the Azure-based backend for high performance.",
       stack: ".NET 6, C#, Neo4j, Azure DevOps, Clean Architecture, Agile/Scrum, Jira",
       logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo_GMC.jpg-e3sNbf98LKeq8qw2UtnuljFp3aZp7l.jpeg",
+      location: "Tunis, Tunisia",
     },
   ]
 
@@ -50,9 +53,9 @@ export default function Experience() {
                   className="mr-4 rounded-lg"
                 />
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-800">{exp.position}</h3>
+                  <h3 className="text-xl font-semibold text-gray-800">{exp.company}</h3>
                   <p className="text-gray-600">
-                    {exp.company} | {exp.period}
+                   {exp.period} | {exp.location}
                   </p>
                   <p className="mt-2 text-gray-700">{exp.description}</p>
                   <p className="mt-1 text-sm text-gray-500">Stack: {exp.stack}</p>
